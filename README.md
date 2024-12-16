@@ -9,7 +9,7 @@
 - 메모리 사용량  
 - 시각화를 통한 결과 비교  
 - 상용 지도 서비스와의 비교
-
+---
 ## 🔍 주요 목표
 1. **라우팅 알고리즘 구현 및 심화 학습**:  
    - Dijkstra 및 Bellman-Ford 알고리즘의 구현과 성능 차이를 분석.  
@@ -20,7 +20,7 @@
 
 3. **결과 시각화 및 비교 분석**:  
    - 각 알고리즘의 경로 결과를 시각적으로 표현하고, 상용 지도 서비스와 비교.
-
+---
 ## 💻 개발 환경
 - 운영 체제: Ubuntu 24.04 (Windows 11 WSL2)  
 - Python 버전: 3.9.20
@@ -30,7 +30,7 @@
 - **heapq**: 다익스트라 알고리즘에서 우선순위 큐 구현  
 - **tracemalloc**: 메모리 사용량 추적  
 - **time**: 알고리즘 실행 시간 측정
-
+---
 ## 📊 결과 요약  
 ### 1️⃣ 알고리즘 성능 비교  
 | 알고리즘       | 실행 시간 (초) | 메모리 사용량 (MB) | 최단 거리 (m) |
@@ -144,9 +144,15 @@
 - 카카오맵, 네이버 지도와 같은 상용 지도 서비스의 경로 최적화 기준을 심층 분석.  
 - 교통량, 도로 폐쇄, 제한 구역 등 다양한 변수 반영 방식 이해.  
 - 서비스 API를 활용한 비교 실험을 통해 알고리즘의 실질적 성능을 평가.
+ 
+---
 
-## 📚 참고 문헌  
-- OpenStreetMap 공식 문서  
-- OSMnx 라이브러리 문서  
-- GeeksforGeeks: Dijkstra Algorithm
+## 📚 참고 문헌
+
+- [OpenStreetMap 공식 문서](https://wiki.openstreetmap.org)
+- [OSMnx 라이브러리 문서](https://osmnx.readthedocs.io)
+- [GeeksforGeeks: Dijkstra Algorithm](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-using-priority_queue-stl)
+- [GeeksforGeeks: Bellman-Ford Algorithm](https://www.geeksforgeeks.org/bellman-ford-algorithm-simple-implementation/)
+- [Python tracemalloc 공식 문서](https://docs.python.org/3/library/tracemalloc.html)
+
 
