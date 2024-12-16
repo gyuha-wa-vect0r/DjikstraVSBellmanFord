@@ -147,7 +147,7 @@
  
 ---
 
-## 📚 참고 문헌
+## 📚 참고 문서서
 
 - [OpenStreetMap 공식 문서](https://wiki.openstreetmap.org)
 - [OSMnx 라이브러리 문서](https://osmnx.readthedocs.io)
