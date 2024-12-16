@@ -31,20 +31,6 @@
 - **tracemalloc**: 메모리 사용량 추적  
 - **time**: 알고리즘 실행 시간 측정
 
-## 📂 프로젝트 구조
-```bash
-.
-├── FINAL.py             # 메인 Python 코드
-├── README.md            # 프로젝트 설명서
-├── requirements.txt     # 필수 라이브러리 설치 파일
-├── results/
-│   ├── graph.png        # 생성된 도로망 그래프 시각화
-│   ├── dijkstra_path.png# 다익스트라 경로 시각화
-│   └── bellman_path.png # 벨만-포드 경로 시각화
-└── data/
-    ├── nodes.gpkg       # 도로망 노드 데이터
-    └── edges.gpkg       # 도로망 엣지 데이터
-
 ## 📊 결과 요약  
 ### 1️⃣ 알고리즘 성능 비교  
 | 알고리즘       | 실행 시간 (초) | 메모리 사용량 (MB) | 최단 거리 (m) |
